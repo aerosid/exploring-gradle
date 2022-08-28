@@ -1,0 +1,32 @@
+{
+  "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
+	"maven.terminal.useJavaHome": true,
+	"files.exclude": {
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.classpath": true
+  },
+	"java.configuration.updateBuildConfiguration": "automatic",
+	"editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "java.implementationsCodeLens.enabled": true,
+  "java.server.launchMode": "Standard",
+  "java.dependency.showMembers": true,
+  "java.import.gradle.home": "/opt/gradle/gradle-5.0",
+  "java.import.maven.enabled": false,
+  "java.referencesCodeLens.enabled": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk-amd64",
+      "sources" : "/usr/local/jdk-11.0.3/lib/src.zip",
+      "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api",
+      "default":  true
+     },
+     {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk-amd64"
+     }
+  ]
+}

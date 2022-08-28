@@ -1,0 +1,8 @@
+dependencies {
+    compile project(':core')
+}
+jar {
+    manifest {
+        attributes 'Main-Class': 'app.App'
+    }
+}

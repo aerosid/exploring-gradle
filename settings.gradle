@@ -1,0 +1,3 @@
+rootProject.name = 'exploring-gradle'
+include 'app'
+include 'core'
